@@ -300,7 +300,7 @@ This project reflects a systems-level understanding of what happens below the fr
 
 | Degree / Board | Institute | Score | Year |
 |:---|:---|:---:|:---:|
-| **B.Tech — Electronics & Communication Engineering** | Motilal Nehru NIT Allahabad, Prayagraj, UP | 7.51 CGPA | 2022–2026 |
+| **B.Tech — Electronics & Communication Engineering** | MN-NIT Allahabad, Prayagraj, UP | 7.51 CGPA | 2022–2026 |
 | Higher Secondary — CBSE | Gurukul Vidyapeeth, Vaishali, Bihar | 88.40% | 2022 |
 | Secondary — CBSE | St. Paul's High School, Vaishali, Bihar | 91.60% | 2020 |
 
@@ -309,32 +309,6 @@ This project reflects a systems-level understanding of what happens below the fr
 ---
 
 ## ◈ Experience & Leadership
-
-<table>
-<tr>
-<td width="130" valign="top" align="center">
-  <img src="https://img.shields.io/badge/-Coordinator-7C3AED?style=for-the-badge&logoColor=white"/><br/>
-  <sub><em>2023 – May 2026</em></sub>
-</td>
-<td valign="top">
-
-**Coordinator — Computer Coding Club, MNNIT Allahabad**
-
-Led a team of developers and competitive programmers across technical events, hackathons, and peer mentorship programs.
-
-- Organized and ran **Hack-36**, MNNIT's flagship 36-hour hackathon
-- Conducted workshops and coding contests for 200+ student participants
-- Mentored peers in DSA and competitive programming through structured sessions
-
-<p>
-<img src="https://img.shields.io/badge/Hackathon%20Org-7C3AED?style=flat-square"/>
-<img src="https://img.shields.io/badge/DSA%20Mentorship-6D28D9?style=flat-square"/>
-<img src="https://img.shields.io/badge/Community%20Building-5B21B6?style=flat-square"/>
-</p>
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -348,11 +322,10 @@ Led a team of developers and competitive programmers across technical events, ha
 
 **Head — Rajasthani Dance Committee, MNNIT Allahabad**
 
-Led the institute's Rajasthani dance troupe through national-level cultural competitions, including a podium finish at IIT Kharagpur's Spring Fest.
+Led the institute's Rajasthani dance troupe.
 
 - Choreographed and directed performances for institute cultural events
-- Managed team practice schedules, logistics, and inter-institute competition participation
-- Led the team to **3rd Position at Spring Fest, IIT Kharagpur** (2024)
+- Managed team practice schedules, logistics, and intra-institute competition participation
 
 <p>
 <img src="https://img.shields.io/badge/Leadership-7C3AED?style=flat-square"/>
@@ -377,41 +350,7 @@ Led the institute's Rajasthani dance troupe through national-level cultural comp
 | **3rd — Impromptu Electronics, Avishkar** | Achieved 3rd Position in the Impromptu Electronic Event at Avishkar, MNNIT Allahabad | 2024 |
 | **3rd — Spring Fest, IIT Kharagpur** | Achieved 3rd Position in the Dance Competition at IIT Kharagpur's Spring Fest | 2024 |
 | **Aerial Guardian — ML Assignment** | +74.8% mAP@0.5 and +83.6% recall over COCO baseline; ONNX at 19.9 MB | 2024 |
-| **Hack-36 Organizer** | Led MNNIT's flagship 36-hour hackathon as Computer Coding Club Coordinator | 2023–2026 |
-
 </div>
-
----
-
-## ◈ Certifications
-
-<p align="center"><strong>Amazon Web Services</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-</p>
-
-<p align="center"><strong>Oracle</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Oracle-Java%20SE%20Foundations-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
-</p>
-
-<p align="center"><strong>NPTEL</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/NPTEL-Deep%20Learning-7C3AED?style=for-the-badge&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/NPTEL-Programming%20in%20Python-6D28D9?style=for-the-badge&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/NPTEL-Data%20Science%20for%20Engineers-5B21B6?style=for-the-badge&logoColor=white"/>
-</p>
-
-<p align="center"><strong>Cisco</strong></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Cisco-Introduction%20to%20Networks-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Cisco-Cybersecurity%20Essentials-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
-</p>
 
 ---
 
@@ -422,16 +361,8 @@ Led the institute's Rajasthani dance troupe through national-level cultural comp
     <img src="https://img.shields.io/badge/LeetCode-kk__269-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
   </a>
   &nbsp;
-  <a href="https://www.geeksforgeeks.org/user/krishnkr07/" target="_blank">
+  <a href="https://www.geeksforgeeks.org/profile/krishn269?tab=activity" target="_blank">
     <img src="https://img.shields.io/badge/GeeksforGeeks-krishnkr07-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://hackerrank.com/krishnkr07" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-krishnkr07-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"/>
-  </a>
-  &nbsp;
-  <a href="https://codechef.com/users/krishnkr07" target="_blank">
-    <img src="https://img.shields.io/badge/CodeChef-krishnkr07-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
   </a>
 </p>
 
