@@ -348,7 +348,6 @@ Led the institute's Rajasthani dance troupe.
 | **E-Yantra, IIT Bombay** | Guided team efforts and progressed to Stage 2 in the national robotics competition | 2023 |
 | **2nd — Innodev, Avishkar MNNIT** | Achieved 2nd Position in the Development Competition at MNNIT Allahabad's tech fest | 2024 |
 | **3rd — Impromptu Electronics, Avishkar** | Achieved 3rd Position in the Impromptu Electronic Event at Avishkar, MNNIT Allahabad | 2024 |
-| **3rd — Spring Fest, IIT Kharagpur** | Achieved 3rd Position in the Dance Competition at IIT Kharagpur's Spring Fest | 2024 |
 | **Aerial Guardian — ML Assignment** | +74.8% mAP@0.5 and +83.6% recall over COCO baseline; ONNX at 19.9 MB | 2024 |
 </div>
 
@@ -379,16 +378,6 @@ Led the institute's Rajasthani dance troupe.
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=KRISHN-git&theme=midnight-purple&hide_border=true&background=0D0D1A&ring=7C3AED&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B5CF6&stroke=6D28D9" />
 </p>
-
----
-
-## ◈ GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KRISHN-git&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6" />
-</p>
-
----
 
 ## ◈ Contribution Activity
 
