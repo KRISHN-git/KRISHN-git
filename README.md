@@ -72,7 +72,7 @@ Beyond code, I lead: I coordinate the Computer Coding Club at MNNIT (running Hac
 
 <p align="center">
   <strong>Languages</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=cpp,python,typescript,javascript,mysql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,typescript,javascript&theme=dark" />
 </p>
 
 <p align="center">
@@ -82,12 +82,12 @@ Beyond code, I lead: I coordinate the Computer Coding Club at MNNIT (running Hac
 
 <p align="center">
   <strong>Backend &amp; Databases</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,flask,mongodb,mysql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,flask,mongodb&theme=dark" />
 </p>
 
 <p align="center">
   <strong>Cloud, DevOps &amp; Tooling</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,cmake&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,cmake&theme=dark" />
   &nbsp;
   <img src="https://img.shields.io/badge/Cloudinary-Image%20Cloud-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
   &nbsp;
@@ -348,7 +348,6 @@ Led the institute's Rajasthani dance troupe.
 | **E-Yantra, IIT Bombay** | Guided team efforts and progressed to Stage 2 in the national robotics competition | 2023 |
 | **2nd — Innodev, Avishkar MNNIT** | Achieved 2nd Position in the Development Competition at MNNIT Allahabad's tech fest | 2024 |
 | **3rd — Impromptu Electronics, Avishkar** | Achieved 3rd Position in the Impromptu Electronic Event at Avishkar, MNNIT Allahabad | 2024 |
-| **Aerial Guardian — ML Assignment** | +74.8% mAP@0.5 and +83.6% recall over COCO baseline; ONNX at 19.9 MB | 2024 |
 </div>
 
 ---
@@ -415,8 +414,6 @@ building:
   - AI-powered features on top of Expense Tracker (spending prediction)
 
 exploring:
-  - SAM2 (Segment Anything v2) for aerial instance segmentation
-  - Grounding DINO for zero-shot object detection
   - Multi-modal LLM integration (vision + text) for damage assessment
   - WebGPU acceleration for browser-native MediaPipe inference
 
@@ -426,11 +423,9 @@ open_to:
     - Full Stack Engineer (React + Python / Node.js)
     - Backend Engineer (C++ / Python / FastAPI)
     - LLM / GenAI Engineer
-    - MLOps Engineer
   preferences:
-    - Remote-first or hybrid
+    - Hybrid, On-site or Remote-first
     - Product-focused engineering teams
-    - End-to-end ownership across the stack
     - High engineering quality bar
 ```
 
