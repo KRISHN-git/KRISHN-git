@@ -317,7 +317,7 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 **Head — Rajasthani Dance Committee, MNNIT Allahabad**
 
 - Choreographed and directed performances for institute cultural events
-- Led team to **3rd Position in 2023 and 2nd in 2025 at Desi Sync, Culrav, MMNIT Allahabad** (2024)
+- Led team to **3rd Position in 2023 and 2nd in 2025 at Desi Sync, Culrav, MNNIT Allahabad**
 
 </td>
 </tr>
