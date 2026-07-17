@@ -52,19 +52,10 @@
 
 ## ◈ About
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=KRISHN-git&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true" />
-
-I am a **final-year B.Tech ECE student at MNNIT Allahabad** with a strong focus on **Machine Learning Engineering**, **Computer Vision**, and **Full Stack Development**. My work sits at the intersection of research-quality ML and production-ready engineering — translating complex models into deployable, user-facing systems.
-
-My project portfolio spans the full breadth of applied AI: drone-based multi-object tracking with custom motion compensation, vehicle damage detection using YOLO + Gemini API, clinical condition extraction via multi-stage LLM pipelines, gesture-controlled browser games with MediaPipe, and high-performance C++ network servers handling 20K+ concurrent connections.
-
-I bring a product engineering mindset alongside technical depth. That means honest benchmarking, documented limitations, clean architecture, and systems built for the next developer as much as the next user. Whether I'm fine-tuning a YOLOv8-S on VisDrone or wiring up a Groq-powered clinical pipeline, the bar is the same: it should work reliably, fail gracefully, and be explainable.
-
-Beyond code, I lead: I coordinate the Computer Coding Club at MNNIT (running Hack-36 and DSA mentorship) and head the Rajasthani Cultural Dance Committee — two very different arenas, same approach: high-quality execution.
+Hi Visitor!
+I am Krishn Kumar, B.Tech ECE graduate from **MNNIT Allahabad** (CGPA: 7.51) building at the intersection of **ML Engineering**, **Artificial Intelligence**, and **Full Stack Development**. I ship end-to-end AI systems; from fine-tuning models to deploying them in production-quality applications. My work spans LLM pipelines, gesture interfaces, drone perception, and high-performance backend systems. I leaded the Rajasthani Dance Committee at MNNIT.
 
 **Open To:** &nbsp;`ML Engineering` &nbsp;`Computer Vision` &nbsp;`Full Stack Engineering` &nbsp;`Applied AI` &nbsp;`Backend Engineering` &nbsp;`LLM / GenAI Roles`
-
-<br clear="right"/>
 
 ---
 
@@ -143,11 +134,13 @@ Beyond code, I lead: I coordinate the Computer Coding Club at MNNIT (running Hac
 
 <br/>
 
-A production-grade, end-to-end computer vision system for real-time multi-object detection and tracking from drone aerial footage. Delivered as a competitive ML engineering hiring assignment in under 10 days, demonstrating full-lifecycle ownership from dataset curation to deployment artifacts.
+End-to-end drone tracking pipeline delivered as a competitive ML engineering assignment in under 10 days — from dataset curation to ONNX deployment artifacts.
 
-The pipeline achieves **+74.8% mAP@0.5** and **+83.6% recall** over the COCO baseline after 30 epochs of VisDrone-specific fine-tuning. Two novel engineering contributions distinguish this system: **(1)** an adaptive tiled inference scheduler driven by Farneback optical flow magnitude that improves small-object recall **3–5×** over full-frame inference, and **(2)** a custom ORB-RANSAC Global Motion Compensator built from scratch to decouple camera ego-motion from object motion in the Kalman prediction step.
-
-ONNX export at **19.9 MB** (15× under the 300 MB constraint), with a TensorRT FP16 deployment path targeting **30–40 FPS on NVIDIA Jetson**.
+- Fine-tuned YOLOv8-S on VisDrone2019 (30 epochs) — **+74.8% mAP@0.5** and **+83.6% recall** over COCO baseline
+- Built adaptive tiled inference scheduler via Farneback optical flow — **3–5× small-object recall** vs full-frame
+- Implemented custom ORB-RANSAC Global Motion Compensator from scratch for ego-motion decoupling
+- Integrated ByteTrack MOT with 30-frame trajectory tails for consistent person IDs
+- Exported to ONNX at **19.9 MB** (15× under 300 MB constraint) with TensorRT FP16 path targeting **30–40 FPS on Jetson**
 
 <div align="center">
 
@@ -159,7 +152,6 @@ ONNX export at **19.9 MB** (15× under the 300 MB constraint), with a TensorRT F
 | **Novel Contributions** | Optical flow–driven adaptive tiling · Custom ORB-RANSAC GMC |
 | **Dataset** | VisDrone2019 DET — 6,471 images · 10 drone-specific object classes |
 | **Deployment Target** | ONNX Runtime (CPU) · TensorRT FP16 → 30–40 FPS on NVIDIA Jetson |
-| **Deliverables** | LaTeX technical report · README · Resume bullets · Interview prep guide |
 | **Repository** | [KRISHN-git/aerial_guardian](https://github.com/KRISHN-git/aerial_guardian) |
 
 </div>
@@ -173,9 +165,12 @@ ONNX export at **19.9 MB** (15× under the 300 MB constraint), with a TensorRT F
 
 <br/>
 
-A full-stack AI platform for automated vehicle damage detection, repair estimation, and safety assessment. The system accepts multi-angle vehicle uploads and runs a two-stage AI pipeline: TensorFlow handles vehicle classification while YOLO pinpoints specific damage regions with bounding boxes. Google Gemini API then synthesizes a human-readable repair summary, safety assessment, and cost estimate from the combined visual analysis.
+Full-stack AI platform for automated vehicle damage detection, repair estimation, and safety assessment from multi-angle image uploads.
 
-Built with a production-quality engineering standard: secure Cloudinary cloud image processing, JWT + Google OAuth authentication, MongoDB-backed user history, and a Chart.js analytics dashboard for visualizing damage trends across a user's history.
+- Two-stage AI pipeline: TensorFlow for vehicle classification → YOLO for damage localization with bounding boxes
+- Gemini API generates repair summaries, safety assessments, and cost estimates automatically
+- React + Flask frontend with Chart.js dashboard for damage trend analytics
+- Secure auth via JWT + Google OAuth; image storage via Cloudinary; history in MongoDB
 
 <div align="center">
 
@@ -183,9 +178,7 @@ Built with a production-quality engineering standard: secure Cloudinary cloud im
 |:---|:---|
 | **Stack** | Python · Flask · TensorFlow · YOLOv8 · React · Gemini API · Chart.js · MongoDB · Cloudinary |
 | **AI Pipeline** | TensorFlow classification → YOLO damage localization → Gemini API report generation |
-| **Features** | Multi-angle upload · Bounding box overlays · Repair cost estimation · Safety assessment |
 | **Auth** | JWT · Google OAuth · Protected routes · MongoDB user history |
-| **Analytics** | Chart.js dashboard for damage trends · Repair cost visualization |
 | **Repository** | [KRISHN-git/Vehicle-Damage-Detector](https://github.com/KRISHN-git/Vehicle-Damage-Detector) |
 
 </div>
@@ -199,9 +192,12 @@ Built with a production-quality engineering standard: secure Cloudinary cloud im
 
 <br/>
 
-A 4-stage LLM pipeline for extracting and classifying clinical conditions from unstructured medical text into a structured 13-category taxonomy, powered by the Groq API. The pipeline handles the real-world constraints of LLM-based clinical data processing: rate limits, token overflow on large inputs, and schema enforcement for structured output.
+4-stage LLM pipeline that extracts and classifies clinical conditions from unstructured medical text into a 13-category structured taxonomy using the Groq API.
 
-Engineering highlights include chunked extraction with automatic retry logic, hierarchical batch merging to resolve token overflow across large-scale document sets, and a rule-based validator with a schema-enforcing prompt system that produces structured JSON with evidence citations — making outputs both machine-processable and auditable by clinical staff.
+- Chunked extraction with automatic retry logic to handle Groq rate and token limits
+- Hierarchical batch merging to resolve token overflow across large document sets
+- Rule-based validator + schema-enforcing prompt system for structured JSON with evidence citations
+- Outputs are both machine-processable and auditable by clinical staff
 
 <div align="center">
 
@@ -210,8 +206,6 @@ Engineering highlights include chunked extraction with automatic retry logic, hi
 | **Stack** | Python · Groq API · Prompt Engineering · JSON Schema Validation |
 | **Pipeline** | 4-stage: extraction → classification → merging → validation |
 | **Taxonomy** | 13-category clinical condition classification |
-| **Reliability** | Chunked extraction · Retry logic · Token overflow handling · Hierarchical batch merging |
-| **Output** | Structured JSON with evidence citations · Rule-based schema enforcement |
 | **Repository** | [KRISHN-git/Patient_Clinical_Assessment](https://github.com/KRISHN-git/Patient_Clinical_Assessment) |
 
 </div>
@@ -225,9 +219,12 @@ Engineering highlights include chunked extraction with automatic retry logic, hi
 
 <br/>
 
-A real-time gesture-controlled browser game built with TypeScript and Next.js, where players use their hands in front of a webcam to steer a rocket through falling meteors. MediaPipe Tasks Vision runs hand landmark detection entirely in the browser, translating relative hand tilt and position into directional rocket control with no server round-trips.
+Real-time browser game where players steer a rocket through falling meteors using hand gestures via webcam — no keyboard, no server round-trips.
 
-The engineering challenge: running MediaPipe inference at interactive frame rates while simultaneously managing the game loop, physics, collision detection, scoring, and audio synthesis via Tone.js — all in one browser tab. Live at [rocket-rider-delta.vercel.app](https://rocket-rider-delta.vercel.app/).
+- MediaPipe Tasks Vision runs hand landmark detection entirely in-browser at interactive frame rates
+- Translates hand tilt and position into directional rocket control in real time
+- 4-life system, distance scoring, meteor collision detection, pause/resume state
+- Procedural audio via Tone.js — Live at [rocket-rider-delta.vercel.app](https://rocket-rider-delta.vercel.app/)
 
 <div align="center">
 
@@ -235,8 +232,6 @@ The engineering challenge: running MediaPipe inference at interactive frame rate
 |:---|:---|
 | **Stack** | TypeScript · Next.js (App Router) · React · MediaPipe Tasks Vision · Tailwind CSS · Tone.js |
 | **AI / Sensing** | Real-time hand landmark detection · Tilt-based directional control · Dual-hand tracking |
-| **Game Mechanics** | 4-life system · Distance score · Meteor collision detection · Pause/resume state |
-| **Audio** | Procedural sound effects and music via Tone.js |
 | **Deployment** | Live at [rocket-rider-delta.vercel.app](https://rocket-rider-delta.vercel.app/) |
 | **Repository** | [KRISHN-git/Rocket-Rider](https://github.com/KRISHN-git/Rocket-Rider) |
 
@@ -251,16 +246,19 @@ The engineering challenge: running MediaPipe inference at interactive frame rate
 
 <br/>
 
-A full-stack personal finance application with real-time income, expense, and budget tracking. Features a premium analytics interface built with Recharts for visualizing spending patterns, category breakdowns, and financial statistics. Designed with a Framer Motion–animated UI for seamless cross-device experience.
+Full-stack MERN finance app with real-time tracking, interactive analytics, and a premium animated UI.
+
+- Real-time income, expense, and budget tracking with category breakdowns
+- Recharts-powered analytics dashboard for spending pattern visualization
+- Framer Motion UI with JWT + Google OAuth auth and MongoDB backend
+- Live on Render
 
 <div align="center">
 
 | Attribute | Detail |
 |:---|:---|
 | **Stack** | MongoDB · Express.js · React · Node.js · Recharts · Tailwind CSS · Framer Motion |
-| **Features** | Real-time income/expense tracking · Budget management · Category analytics |
 | **Auth** | JWT · Google OAuth · Protected routes |
-| **Deployment** | Live on Render |
 | **Repository** | [KRISHN-git/Expense-Tracker](https://github.com/KRISHN-git/Expense-Tracker) |
 
 </div>
@@ -274,9 +272,12 @@ A full-stack personal finance application with real-time income, expense, and bu
 
 <br/>
 
-A from-scratch HTTP server engineered in C++ to handle **20,000+ concurrent connections** using epoll (Linux), kqueue (macOS), and Winsock (Windows). Built with a production-quality thread pool and socket management system, applying Factory and Builder design patterns with strict SOLID principles throughout. Cross-platform builds via CMake.
+From-scratch C++ HTTP server handling 20,000+ concurrent connections — no frameworks, just sockets.
 
-This project reflects a systems-level understanding of what happens below the framework layer — directly applicable to diagnosing network-level issues in production backend systems.
+- Leveraged epoll (Linux), kqueue (macOS), and Winsock (Windows) for async I/O
+- Custom thread pool and socket management for high-load connection handling
+- Factory + Builder design patterns with strict SOLID principles throughout
+- Cross-platform CMake builds across Linux, macOS, and Windows
 
 <div align="center">
 
@@ -284,8 +285,6 @@ This project reflects a systems-level understanding of what happens below the fr
 |:---|:---|
 | **Stack** | C++ · Multithreading · epoll · kqueue · Winsock · CMake |
 | **Performance** | 20,000+ concurrent connections · Low-latency design |
-| **Architecture** | Thread pool · Socket management · Factory + Builder patterns · SOLID principles |
-| **Compatibility** | Linux · macOS · Windows (cross-platform CMake builds) |
 | **Repository** | [KRISHN-git/HTTP-SERVER](https://github.com/KRISHN-git/HTTP-SERVER) |
 
 </div>
@@ -310,7 +309,23 @@ This project reflects a systems-level understanding of what happens below the fr
 
 ## ◈ Experience & Leadership
 
----
+<table>
+<tr>
+<td width="130" valign="top" align="center">
+  <img src="https://img.shields.io/badge/-Coordinator-7C3AED?style=for-the-badge&logoColor=white"/><br/>
+  <sub><em>2023 – May 2026</em></sub>
+</td>
+<td valign="top">
+
+**Coordinator — Computer Coding Club, MNNIT Allahabad**
+
+- Organized **Hack-36**, MNNIT's flagship 36-hour hackathon
+- Ran workshops and coding contests for 200+ participants
+- Mentored peers in DSA and competitive programming
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -322,16 +337,8 @@ This project reflects a systems-level understanding of what happens below the fr
 
 **Head — Rajasthani Dance Committee, MNNIT Allahabad**
 
-Led the institute's Rajasthani dance troupe.
-
 - Choreographed and directed performances for institute cultural events
-- Managed team practice schedules, logistics, and intra-institute competition participation
-
-<p>
-<img src="https://img.shields.io/badge/Leadership-7C3AED?style=flat-square"/>
-<img src="https://img.shields.io/badge/Choreography-6D28D9?style=flat-square"/>
-<img src="https://img.shields.io/badge/National%20Competition-5B21B6?style=flat-square"/>
-</p>
+- Led team to **3rd Position at Spring Fest, IIT Kharagpur** (2024)
 
 </td>
 </tr>
@@ -345,9 +352,11 @@ Led the institute's Rajasthani dance troupe.
 
 | 🏆 Recognition | Details | Year |
 |:---:|:---|:---:|
-| **E-Yantra, IIT Bombay** | Guided team efforts and progressed to Stage 2 in the national robotics competition | 2023 |
-| **2nd — Innodev, Avishkar MNNIT** | Achieved 2nd Position in the Development Competition at MNNIT Allahabad's tech fest | 2024 |
-| **3rd — Impromptu Electronics, Avishkar** | Achieved 3rd Position in the Impromptu Electronic Event at Avishkar, MNNIT Allahabad | 2024 |
+| **E-Yantra, IIT Bombay** | Progressed to Stage 2 in the national robotics competition | 2023 |
+| **2nd — Innodev, Avishkar MNNIT** | 2nd Position in the Development Competition at MNNIT tech fest | 2024 |
+| **3rd — Impromptu Electronics, Avishkar** | 3rd Position in Impromptu Electronic Event at MNNIT Allahabad | 2024 |
+| **3rd — Spring Fest, IIT Kharagpur** | 3rd Position in Dance Competition at IIT Kharagpur | 2024 |
+
 </div>
 
 ---
@@ -360,7 +369,7 @@ Led the institute's Rajasthani dance troupe.
   </a>
   &nbsp;
   <a href="https://www.geeksforgeeks.org/profile/krishn269?tab=activity" target="_blank">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-krishnkr07-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GeeksforGeeks-krishn269-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
   </a>
 </p>
 
@@ -369,14 +378,15 @@ Led the institute's Rajasthani dance troupe.
 ## ◈ GitHub Analytics
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=KRISHN-git&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true" />
-  &nbsp;&nbsp;
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KRISHN-git&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" />
+  <img src="https://github-readme-stats.vercel.app/api?username=KRISHN-git&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true&hide=contribs" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KRISHN-git&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" width="40%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=KRISHN-git&theme=midnight-purple&hide_border=true&background=0D0D1A&ring=7C3AED&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B5CF6&stroke=6D28D9" />
+  <img src="https://streak-stats.demolab.com?user=KRISHN-git&theme=midnight-purple&hide_border=true&background=0D0D1A&ring=7C3AED&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B5CF6&stroke=6D28D9" width="60%"/>
 </p>
+
+---
 
 ## ◈ Contribution Activity
 
@@ -401,32 +411,15 @@ Led the institute's Rajasthani dance troupe.
 ## ◈ Current Focus
 
 ```yaml
-learning:
-  - Full GMC-to-Kalman prediction integration for Aerial Guardian v2
-  - DETR and transformer-based aerial detection architectures
-  - Advanced Groq + LangChain pipelines for multi-agent clinical workflows
-  - TensorRT FP16 optimization for Jetson edge deployment
-
-building:
-  - Aerial Guardian v2 — full ego-motion decoupling + Jetson deployment
-  - ONNX Runtime async inference server with FastAPI
-  - Expanding clinical pipeline taxonomy and evidence quality scoring
-  - AI-powered features on top of Expense Tracker (spending prediction)
-
-exploring:
-  - Multi-modal LLM integration (vision + text) for damage assessment
-  - WebGPU acceleration for browser-native MediaPipe inference
+focus:
+  - Building AI systems — Computer Vision, LLM pipelines, and applied ML
+  - Backend engineering — high-performance APIs, C++, and scalable systems
 
 open_to:
-  roles:
-    - ML Engineer (Computer Vision / Applied AI)
-    - Full Stack Engineer (React + Python / Node.js)
-    - Backend Engineer (C++ / Python / FastAPI)
-    - LLM / GenAI Engineer
-  preferences:
-    - Hybrid, On-site or Remote-first
-    - Product-focused engineering teams
-    - High engineering quality bar
+  - AI / ML Engineering
+  - Backend Engineering
+  - Software Engineering
+  - Full Stack / Applied AI roles
 ```
 
 ---
