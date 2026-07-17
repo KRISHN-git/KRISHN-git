@@ -297,7 +297,7 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 | Degree / Board | Institute | Score | Year |
 |:---|:---|:---:|:---:|
 | **B.Tech — Electronics & Communication Engineering** | MN-NIT Allahabad, Prayagraj, UP | 7.51 CGPA | 2022–2026 |
-| Higher Secondary — CBSE | Gurukul Vidyapeeth, Vaishali, Bihar | 88.40% | 2022 |
+| Higher Secondary — CBSE | Gurukul Vidyapeeth, Vaishali, Bihar | 88.60% | 2022 |
 | Secondary — CBSE | St. Paul's High School, Vaishali, Bihar | 91.60% | 2020 |
 
 </div>
@@ -305,24 +305,6 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 ---
 
 ## ◈ Experience & Leadership
-
-<table>
-<tr>
-<td width="130" valign="top" align="center">
-  <img src="https://img.shields.io/badge/-Coordinator-7C3AED?style=for-the-badge&logoColor=white"/><br/>
-  <sub><em>2023 – May 2026</em></sub>
-</td>
-<td valign="top">
-
-**Coordinator — Computer Coding Club, MNNIT Allahabad**
-
-- Organized **Hack-36**, MNNIT's flagship 36-hour hackathon
-- Ran workshops and coding contests for 200+ participants
-- Mentored peers in DSA and competitive programming
-
-</td>
-</tr>
-</table>
 
 <table>
 <tr>
@@ -352,7 +334,6 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 | **E-Yantra, IIT Bombay** | Progressed to Stage 2 in the national robotics competition | 2023 |
 | **2nd — Innodev, Avishkar MNNIT** | 2nd Position in the Development Competition at MNNIT tech fest | 2024 |
 | **3rd — Impromptu Electronics, Avishkar** | 3rd Position in Impromptu Electronic Event at MNNIT Allahabad | 2024 |
-| **3rd — Spring Fest, IIT Kharagpur** | 3rd Position in Dance Competition at IIT Kharagpur | 2024 |
 
 </div>
 
@@ -373,11 +354,6 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 ---
 
 ## ◈ GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KRISHN-git&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true&hide=contribs" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KRISHN-git&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" width="40%" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=KRISHN-git&theme=midnight-purple&hide_border=true&background=0D0D1A&ring=7C3AED&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B5CF6&stroke=6D28D9" width="60%"/>
