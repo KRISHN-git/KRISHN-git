@@ -34,10 +34,6 @@
   <a href="mailto:krishnkr07@gmail.com">
     <img src="https://img.shields.io/badge/Email-krishnkr07%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  &nbsp;
-  <a href="https://github.com/KRISHN-git" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-KRISHN--git-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
 </p>
 
 <p align="center">
@@ -52,10 +48,11 @@
 
 ## ◈ About
 
-Hi Visitor!
-I am Krishn Kumar, B.Tech ECE graduate from **MNNIT Allahabad** (CGPA: 7.51) building at the intersection of **ML Engineering**, **Artificial Intelligence**, and **Full Stack Development**. I ship end-to-end AI systems; from fine-tuning models to deploying them in production-quality applications. My work spans LLM pipelines, gesture interfaces, drone perception, and high-performance backend systems. I leaded the Rajasthani Dance Committee at MNNIT.
+Hi Visitor!,
 
-**Open To:** &nbsp;`ML Engineering` &nbsp;`Computer Vision` &nbsp;`Full Stack Engineering` &nbsp;`Applied AI` &nbsp;`Backend Engineering` &nbsp;`LLM / GenAI Roles`
+I am Krishn Kumar, B.Tech ECE graduate from **MNNIT Allahabad** building at the intersection of **ML Engineering**, **Artificial Intelligence**, and **Full Stack Development**. I ship end-to-end AI systems; from fine-tuning models to deploying them in production-quality applications. My work spans LLM pipelines, gesture interfaces, drone perception, and high-performance backend systems. I leaded the Rajasthani Dance Committee at MNNIT.
+
+**Open To:** &nbsp;`AI Engineering` &nbsp;`Full Stack Engineering` &nbsp;`NLP Engineer` &nbsp;`Backend Engineering` &nbsp;`ML Engineering` &nbsp;`GenAI Roles`
 
 ---
 
@@ -451,10 +448,6 @@ open_to:
   &nbsp;
   <a href="https://www.linkedin.com/in/krishn-kumar/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Krishn%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/KRISHN-git" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-KRISHN--git-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   &nbsp;
   <a href="https://portfolio-krishn.vercel.app/" target="_blank">
