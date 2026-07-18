@@ -176,7 +176,7 @@ Full-stack AI platform for automated vehicle damage detection, repair estimation
 | **Stack** | Python · Flask · TensorFlow · YOLOv8 · React · Gemini API · Chart.js · MongoDB · Cloudinary |
 | **AI Pipeline** | TensorFlow classification → YOLO damage localization → Gemini API report generation |
 | **Auth** | JWT · Google OAuth · Protected routes · MongoDB user history |
-| **Repository** | [KRISHN-git/Vehicle-Damage-Detector](https://github.com/KRISHN-git/Vehicle-Damage-Detector) |
+| **Repository** | [KRISHN-git/Vehicle-Damage-Detector](https://github.com/Gaurav4069/DamageDetector) |
 
 </div>
 
@@ -256,7 +256,7 @@ Full-stack MERN finance app with real-time tracking, interactive analytics, and 
 |:---|:---|
 | **Stack** | MongoDB · Express.js · React · Node.js · Recharts · Tailwind CSS · Framer Motion |
 | **Auth** | JWT · Google OAuth · Protected routes |
-| **Repository** | [KRISHN-git/Expense-Tracker](https://github.com/KRISHN-git/Expense-Tracker) |
+| **Repository** | [KRISHN-git/Expense-Tracker](https://github.com/KRISHN-git/Expense_Tracker) |
 
 </div>
 
