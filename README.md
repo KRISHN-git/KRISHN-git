@@ -221,7 +221,7 @@ Real-time browser game where players steer a rocket through falling meteors usin
 - MediaPipe Tasks Vision runs hand landmark detection entirely in-browser at interactive frame rates
 - Translates hand tilt and position into directional rocket control in real time
 - 4-life system, distance scoring, meteor collision detection, pause/resume state
-- Procedural audio via Tone.js — Live at [rocket-rider-delta.vercel.app](https://rocket-rider-delta.vercel.app/)
+- Procedural audio via Tone.js
 
 <div align="center">
 
