@@ -283,6 +283,7 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 |:---|:---|
 | **Stack** | C++ · Multithreading · epoll · kqueue · Winsock · CMake |
 | **Performance** | 20,000+ concurrent connections · Low-latency design |
+| **Deployment** | Video Demo at [www.youtube.com/watch?v=GlTod3dWJMo](https://www.youtube.com/watch?v=GlTod3dWJMo) |
 | **Repository** | [KRISHN-git/HTTP-SERVER](https://github.com/KRISHN-git/HTTP-SERVER) |
 
 </div>
