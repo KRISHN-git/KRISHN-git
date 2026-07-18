@@ -256,6 +256,7 @@ Full-stack MERN finance app with real-time tracking, interactive analytics, and 
 |:---|:---|
 | **Stack** | MongoDB · Express.js · React · Node.js · Recharts · Tailwind CSS · Framer Motion |
 | **Auth** | JWT · Google OAuth · Protected routes |
+| **Deployment** | Live at [expense-tracker-q6my.vercel.app/](https://expense-tracker-q6my.vercel.app/) |
 | **Repository** | [KRISHN-git/Expense-Tracker](https://github.com/KRISHN-git/Expense_Tracker) |
 
 </div>
