@@ -323,7 +323,11 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 - Choreographed and directed performances for institute cultural events
 - Led team to **3rd Position in 2023 and 2nd in 2025 at Desi Sync, Culrav, MNNIT Allahabad**
 
-</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td width="130" valign="top" align="center">
   <img src="https://img.shields.io/badge/-Network Engineer-6D28D9?style=for-the-badge&logoColor=white"/><br/>
   <sub><em>Sept 2026 – Present</em></sub>
