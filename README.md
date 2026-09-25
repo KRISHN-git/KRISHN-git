@@ -50,7 +50,9 @@
 
 Hi Visitor!,
 
-I am Krishn Kumar, B.Tech ECE graduate from **MNNIT Allahabad** building at the intersection of **ML Engineering**, **Artificial Intelligence**, and **Full Stack Development**. I ship end-to-end AI systems; from fine-tuning models to deploying them in production-quality applications. My work spans LLM pipelines, gesture interfaces, drone perception, and high-performance backend systems. I leaded the Rajasthani Dance Committee at MNNIT.
+I am Krishn Kumar, B.Tech ECE graduate from **MNNIT Allahabad** building at the intersection of **ML Engineering**, **Artificial Intelligence**, and **Full Stack Development**. I ship end-to-end AI systems; from fine-tuning models to deploying them in production-quality applications. 
+Currently, I am working as a Network Engineer @Ericsson.
+My work spans LLM pipelines, gesture interfaces, drone perception, and high-performance backend systems. I leaded the Rajasthani Dance Committee at MNNIT.
 
 **Open To:** &nbsp;`AI Engineering` &nbsp;`Full Stack Engineering` &nbsp;`NLP Engineer` &nbsp;`Backend Engineering` &nbsp;`ML Engineering` &nbsp;`GenAI Roles`
 
@@ -320,6 +322,15 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 
 - Choreographed and directed performances for institute cultural events
 - Led team to **3rd Position in 2023 and 2nd in 2025 at Desi Sync, Culrav, MNNIT Allahabad**
+
+</td>
+<td width="130" valign="top" align="center">
+  <img src="https://img.shields.io/badge/-Network Engineer-6D28D9?style=for-the-badge&logoColor=white"/><br/>
+  <sub><em>Sept 2026 – Present</em></sub>
+</td>
+<td valign="top">
+
+**Network Engineer @Ericsson**
 
 </td>
 </tr>
