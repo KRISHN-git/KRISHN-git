@@ -313,7 +313,7 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 
 <table>
 <tr>
-<td width="130" valign="top" align="center">
+<td width="280" valign="top" align="center">
   <img src="https://img.shields.io/badge/-Network Engineer-6D28D9?style=for-the-badge&logoColor=white"/><br/>
   <sub><em>Sept 2026 – Present</em></sub>
 </td>
