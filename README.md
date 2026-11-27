@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍%20Noida%2C%20Delhi-NCR-Open%20to%20Relocation-8B5CF6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/📍%20Noida%2C%20Delhi_NCR-Open%20to%20Relocation-8B5CF6?style=flat-square"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Status-Actively%20Seeking%20Roles-22C55E?style=flat-square&logo=checkmarx&logoColor=white"/>
 </p>
@@ -130,6 +130,7 @@ From-scratch C++ HTTP server handling 20,000+ concurrent connections — no fram
 </div>
 
 </details>
+
 ---
 
 <details>
