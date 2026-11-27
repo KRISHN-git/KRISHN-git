@@ -11,13 +11,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/B.Tech%20ECE-MNNIT%20Allahabad-7C3AED?style=flat-square&logo=graduation-cap&logoColor=white"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/CGPA-7.51%20%2F%2010-6D28D9?style=flat-square&logoColor=white"/>
-  &nbsp;
   <img src="https://img.shields.io/badge/Batch-2022--2026-4C1D95?style=flat-square&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍%20Hajipur%2C%20Bihar-Open%20to%20Relocation-8B5CF6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/📍%20Noida%2C%20Delhi-NCR-Open%20to%20Relocation-8B5CF6?style=flat-square"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Status-Actively%20Seeking%20Roles-22C55E?style=flat-square&logo=checkmarx&logoColor=white"/>
 </p>
@@ -106,28 +104,87 @@ My work spans LLM pipelines, gesture interfaces, drone perception, and high-perf
 
 ---
 
-## ◈ AI / ML Expertise
+## ◈ Featured Projects
+
+<details>
+<summary><strong>🌐 HTTP Server — High-Performance C++ Multithreaded Network Server</strong></summary>
+
+<br/>
+
+From-scratch C++ HTTP server handling 20,000+ concurrent connections — no frameworks, just sockets.
+
+- Leveraged epoll (Linux), kqueue (macOS), and Winsock (Windows) for async I/O
+- Custom thread pool and socket management for high-load connection handling
+- Factory + Builder design patterns with strict SOLID principles throughout
+- Cross-platform CMake builds across Linux, macOS, and Windows
 
 <div align="center">
 
-| Domain | Proficiency | Details |
-|:---|:---:|:---|
-| **Object Detection** | ████████████ Expert | YOLOv8/v9, fine-tuning, SAHI tiled inference, +74.8% mAP over COCO baseline |
-| **Multi-Object Tracking** | ███████████ Advanced | ByteTrack, Kalman filtering, ORB-RANSAC GMC, 30-frame trajectory tails |
-| **Optical Flow** | ██████████ Advanced | Farneback dense flow, motion-adaptive tile scheduling, 3–5× small-object recall |
-| **LLM Pipelines** | ██████████ Advanced | Groq API, multi-stage extraction, chunked retry logic, structured JSON output |
-| **Gesture & Pose Recognition** | ██████████ Advanced | MediaPipe Tasks Vision, hand landmark detection, real-time tilt/position mapping |
-| **Generative AI Integration** | █████████ Advanced | Gemini API for repair summaries, cost estimation, safety assessment generation |
-| **Model Optimization** | ██████████ Advanced | ONNX export (19.9 MB), TensorRT FP16 path, 30–40 FPS target on Jetson |
-| **Computer Vision (General)** | ████████████ Expert | Damage detection, classification, bounding box pipelines, multi-angle inference |
-| **Full Stack AI Integration** | ████████ Proficient | Flask + React AI backends, Chart.js dashboards, Cloudinary pipelines |
-| **Systems Programming** | ████████ Proficient | C++ HTTP server, epoll/kqueue, thread pool, 20K+ concurrent connections |
+| Attribute | Detail |
+|:---|:---|
+| **Stack** | C++ · Multithreading · epoll · kqueue · Winsock · CMake |
+| **Performance** | 20,000+ concurrent connections · Low-latency design |
+| **Deployment** | Video Demo at [www.youtube.com/watch?v=GlTod3dWJMo](https://www.youtube.com/watch?v=GlTod3dWJMo) |
+| **Repository** | [KRISHN-git/HTTP-SERVER](https://github.com/KRISHN-git/HTTP-SERVER) |
 
 </div>
 
+</details>
 ---
 
-## ◈ Featured Projects
+<details>
+<summary><strong>🧬 Clinical Condition Extraction Pipeline — Multi-Stage LLM Classification System</strong></summary>
+
+<br/>
+
+4-stage LLM pipeline that extracts and classifies clinical conditions from unstructured medical text into a 13-category structured taxonomy using the Groq API.
+
+- Chunked extraction with automatic retry logic to handle Groq rate and token limits
+- Hierarchical batch merging to resolve token overflow across large document sets
+- Rule-based validator + schema-enforcing prompt system for structured JSON with evidence citations
+- Outputs are both machine-processable and auditable by clinical staff
+
+<div align="center">
+
+| Attribute | Detail |
+|:---|:---|
+| **Stack** | Python · Groq API · Prompt Engineering · JSON Schema Validation |
+| **Pipeline** | 4-stage: extraction → classification → merging → validation |
+| **Taxonomy** | 13-category clinical condition classification |
+| **Repository** | [KRISHN-git/Patient_Clinical_Assessment](https://github.com/KRISHN-git/Patient_Clinical_Assessment) |
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary><strong>🎮 Rocket Rider — Gesture-Controlled Browser Game</strong></summary>
+
+<br/>
+
+Real-time browser game where players steer a rocket through falling meteors using hand gestures via webcam — no keyboard, no server round-trips.
+
+- MediaPipe Tasks Vision runs hand landmark detection entirely in-browser at interactive frame rates
+- Translates hand tilt and position into directional rocket control in real time
+- 4-life system, distance scoring, meteor collision detection, pause/resume state
+- Procedural audio via Tone.js
+
+<div align="center">
+
+| Attribute | Detail |
+|:---|:---|
+| **Stack** | TypeScript · Next.js (App Router) · React · MediaPipe Tasks Vision · Tailwind CSS · Tone.js |
+| **AI / Sensing** | Real-time hand landmark detection · Tilt-based directional control · Dual-hand tracking |
+| **Deployment** | Live at [rocket-rider-delta.vercel.app](https://rocket-rider-delta.vercel.app/) |
+| **Repository** | [KRISHN-git/Rocket-Rider](https://github.com/KRISHN-git/Rocket-Rider) |
+
+</div>
+
+</details>
+
+---
 
 <details>
 <summary><strong>🛰 Aerial Guardian — Drone-Based Multi-Object Tracking Pipeline</strong></summary>
@@ -188,60 +245,6 @@ Full-stack AI platform for automated vehicle damage detection, repair estimation
 ---
 
 <details>
-<summary><strong>🧬 Clinical Condition Extraction Pipeline — Multi-Stage LLM Classification System</strong></summary>
-
-<br/>
-
-4-stage LLM pipeline that extracts and classifies clinical conditions from unstructured medical text into a 13-category structured taxonomy using the Groq API.
-
-- Chunked extraction with automatic retry logic to handle Groq rate and token limits
-- Hierarchical batch merging to resolve token overflow across large document sets
-- Rule-based validator + schema-enforcing prompt system for structured JSON with evidence citations
-- Outputs are both machine-processable and auditable by clinical staff
-
-<div align="center">
-
-| Attribute | Detail |
-|:---|:---|
-| **Stack** | Python · Groq API · Prompt Engineering · JSON Schema Validation |
-| **Pipeline** | 4-stage: extraction → classification → merging → validation |
-| **Taxonomy** | 13-category clinical condition classification |
-| **Repository** | [KRISHN-git/Patient_Clinical_Assessment](https://github.com/KRISHN-git/Patient_Clinical_Assessment) |
-
-</div>
-
-</details>
-
----
-
-<details>
-<summary><strong>🎮 Rocket Rider — Gesture-Controlled Browser Game</strong></summary>
-
-<br/>
-
-Real-time browser game where players steer a rocket through falling meteors using hand gestures via webcam — no keyboard, no server round-trips.
-
-- MediaPipe Tasks Vision runs hand landmark detection entirely in-browser at interactive frame rates
-- Translates hand tilt and position into directional rocket control in real time
-- 4-life system, distance scoring, meteor collision detection, pause/resume state
-- Procedural audio via Tone.js
-
-<div align="center">
-
-| Attribute | Detail |
-|:---|:---|
-| **Stack** | TypeScript · Next.js (App Router) · React · MediaPipe Tasks Vision · Tailwind CSS · Tone.js |
-| **AI / Sensing** | Real-time hand landmark detection · Tilt-based directional control · Dual-hand tracking |
-| **Deployment** | Live at [rocket-rider-delta.vercel.app](https://rocket-rider-delta.vercel.app/) |
-| **Repository** | [KRISHN-git/Rocket-Rider](https://github.com/KRISHN-git/Rocket-Rider) |
-
-</div>
-
-</details>
-
----
-
-<details>
 <summary><strong>💸 Expense Tracker — Full-Stack Personal Finance Dashboard</strong></summary>
 
 <br/>
@@ -268,30 +271,25 @@ Full-stack MERN finance app with real-time tracking, interactive analytics, and 
 
 ---
 
-<details>
-<summary><strong>🌐 HTTP Server — High-Performance C++ Multithreaded Network Server</strong></summary>
 
-<br/>
-
-From-scratch C++ HTTP server handling 20,000+ concurrent connections — no frameworks, just sockets.
-
-- Leveraged epoll (Linux), kqueue (macOS), and Winsock (Windows) for async I/O
-- Custom thread pool and socket management for high-load connection handling
-- Factory + Builder design patterns with strict SOLID principles throughout
-- Cross-platform CMake builds across Linux, macOS, and Windows
+## ◈ AI / ML Expertise
 
 <div align="center">
 
-| Attribute | Detail |
-|:---|:---|
-| **Stack** | C++ · Multithreading · epoll · kqueue · Winsock · CMake |
-| **Performance** | 20,000+ concurrent connections · Low-latency design |
-| **Deployment** | Video Demo at [www.youtube.com/watch?v=GlTod3dWJMo](https://www.youtube.com/watch?v=GlTod3dWJMo) |
-| **Repository** | [KRISHN-git/HTTP-SERVER](https://github.com/KRISHN-git/HTTP-SERVER) |
+| Domain | Proficiency | Details |
+|:---|:---:|:---|
+| **Object Detection** | ████████████ Expert | YOLOv8/v9, fine-tuning, SAHI tiled inference, +74.8% mAP over COCO baseline |
+| **Multi-Object Tracking** | ███████████ Advanced | ByteTrack, Kalman filtering, ORB-RANSAC GMC, 30-frame trajectory tails |
+| **Optical Flow** | ██████████ Advanced | Farneback dense flow, motion-adaptive tile scheduling, 3–5× small-object recall |
+| **LLM Pipelines** | ██████████ Advanced | Groq API, multi-stage extraction, chunked retry logic, structured JSON output |
+| **Gesture & Pose Recognition** | ██████████ Advanced | MediaPipe Tasks Vision, hand landmark detection, real-time tilt/position mapping |
+| **Generative AI Integration** | █████████ Advanced | Gemini API for repair summaries, cost estimation, safety assessment generation |
+| **Model Optimization** | ██████████ Advanced | ONNX export (19.9 MB), TensorRT FP16 path, 30–40 FPS target on Jetson |
+| **Computer Vision (General)** | ████████████ Expert | Damage detection, classification, bounding box pipelines, multi-angle inference |
+| **Full Stack AI Integration** | ████████ Proficient | Flask + React AI backends, Chart.js dashboards, Cloudinary pipelines |
+| **Systems Programming** | ████████ Proficient | C++ HTTP server, epoll/kqueue, thread pool, 20K+ concurrent connections |
 
 </div>
-
-</details>
 
 ---
 
